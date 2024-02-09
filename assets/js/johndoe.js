@@ -14,10 +14,10 @@
 
 // smooth scroll
 
-    // document.addEventListener('contextmenu', function (event) {
-    //     event.preventDefault();
-    //     alert("You Thought It Was Right Click But It was I, Dio!");
-    // });
+    document.addEventListener('contextmenu', function (event) {
+        event.preventDefault();
+        alert("You Thought It Was Right Click But It was I, Dio!");
+    });
 
 
 $(document).ready(function(){
