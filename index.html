@@ -384,26 +384,6 @@
     </section>
     <!-- End of portfolio section -->
 
-    <!-- <script>
-        function sendEmail() {
-            var name = document.getElementById("name").value;
-            var email = document.getElementById("email").value;
-            var message = document.getElementById("msg").value;
-
-            var mailtoLink = "mailto:roydendixera11@gmail.com" + "?subject=New Form Submission" + "&body=";
-            mailtoLink += encodeURIComponent("Name: " + name + "\n");
-            mailtoLink += encodeURIComponent("Email: " + email + "\n");
-            mailtoLink += encodeURIComponent("Message: " + message);
-
-            var mailtoAnchor = document.createElement("a");
-            mailtoAnchor.href = mailtoLink;
-
-            document.body.appendChild(mailtoAnchor);
-            mailtoAnchor.click();
-            document.body.removeChild(mailtoAnchor);
-        }
-    </script> -->
-
 
     <div class="section contact bg-dark py-5" id="contact" >
         <div id="map" style="color: gray;"></div>
@@ -411,8 +391,8 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="contact-form-card">
-                        <h4 class="contact-title">Send a message(feature aren't working)</h4>
-                        <form action="" >
+                        <h4 class="contact-title">Send a Message</h4>
+                        <form action="https://formspree.io/f/xnqednqn" method="POST" >
                             <div class="form-group">
                                 <input  class="form-control" type="text" id="name" name="name" placeholder="Name *" >
                             </div>
@@ -423,7 +403,7 @@
                                 <textarea class="form-control"  id="msg" name="msg" placeholder="Message *" rows="7" ></textarea>
                             </div>
                             <div class="form-group ">
-                                <button type="submit" onclick="alert('It did say its not working')" class="form-control btn btn-primary" >Send Message</button>
+                                <button type="submit" class="form-control btn btn-primary" >Send Message</button>
                             </div>
                         </form>
                     </div>
