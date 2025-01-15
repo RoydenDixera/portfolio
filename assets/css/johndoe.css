@@ -11165,23 +11165,20 @@ p {
 .portfolio .filters {
   border-bottom: 2px solid #dee2e6;
   border-radius: 0;
-  padding-bottom: 4px;
-  margin: 0 auto 20px;
+  padding-bottom: auto;
+  margin: 0 auto 40px;
   max-width: 400px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: center;
+          justify-content: space-around;
 }
 
 .portfolio .filters a {
-  -webkit-flex-basis: 0;
-      -ms-flex-preferred-size: 0;
-          flex-basis: 0;
   display: block;
   color: #212529;
   font-size: 13px;
